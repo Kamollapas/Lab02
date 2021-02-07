@@ -7,3 +7,62 @@
 .cascade:hover {
     opacity: 1
 }
+
+.Khob {
+    border: solid red 5px;
+}
+
+.went {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.zoombox {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: -5px;
+}
+
+.zoombox:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    display: inline-block;
+}
+
+body {
+    background-color: #363636;
+}
+
+h1 {
+    color: #ffc422;
+    font-size: 70px;
+}
+
+p {
+    color: #ffc422;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: block;
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.navbar:hover {
+    opacity: 1
+}
